@@ -1,0 +1,85 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 10vh;
+    margin: 0;
+    padding: 0;
+      
+}
+
+html,body {
+    background-image: url("https://lh3.googleusercontent.com/JUND03w_ebXclf4kv7rbnbBGmTW5xzVJz33ZLDWkGdgcj97PBDCxncUxdH5P_By05Z30BG4KxhbZ_CL5ZT9dWoBvi2RI8gw7kxOhUDc9LupN5VzaTKEXuWzN9oulD1aapK9llCTWac9FoR9ov2bhyRsKCglVgjyYHduzhqYYsRD3EIxLEjl3yXqOIWX-a-NpaGjDEnfOx2mc1yLniqDhfJTsXbQI17H30VOT3vq8hPTU1CQ0WMAPHxTnFl7DT1JMbsmciPx0NmYcjAsLnycQGImMbH2npJRerPfVGPpRy7QcHxVRac6r2mqbfJ7uOnWEItTH_0QtCDdvLP416hmOlaENfJxxN7QaJfmTzWJFd2MMYAGjuqy320gidinrgUNOn0maGNGXtkjYIIJzYFwnhVYsyUI80bdJRlHC6R4hjwOyc5xnOKJlE7CWaARsELVzv_QKhR6OFeG6mUTdhkGV2PxAgUWy-WX1oP6n0GKaiFPD0fEsmdnRdHlH2Ezz0FDDrb5LjIAzdAlWPxM6zt-yh3eS5njd0zfkSJtkIipvmzQnGZN2WFhp-SZVAn4Z7ej7AD26-22ChiOI_qKzniCnNfX_WMA3dXWQq3grAzreQ_uRGsQ5kG8s2yvy7RQQFgam4qQD4-eZvd-vms-uGlizHQIXqIZfjbg7QZoH9UPNiKN9ipMLG_pi-ITSsyq_UYD7UbnKitoog2ELSvHLvsffhj-AGHlD9JvaT7jg6IXEVH13YdqNw3lITP64Gz9Gc5pKkluArg9fIErDpkcA5xffD9AXsOAJLJugjPI8Mp1TPI63nvj9lDiAbknWfm6KFox7VH39n7eFU_3mRMUVJBAR-OLbb9fAOdAQxziaqWcx4h4BuZoVG3LZAIAb1xYZ4NUU6RPtZSaHH6jPH6POzYw63c-p3tz2kbi2omEky2JWSuQesjLK=w1865-h933-no?authuser=0");
+    background-size: cover;
+}
+
+p {
+    font-family: Arial;
+    font-size: large;
+    color: whitesmoke;
+    text-align: center
+}
+
+h1, h2, h4 {
+    text-align: center;
+    font-family: Arial;
+    font-size: 1cm;
+    font-size: 20;
+    color: white;
+    /*color: #003249;*/
+}
+
+/* --- Custom IDs and classes --- */
+#content {
+    margin: 100px 0 0 0;
+}
+
+/* Navigationbar styles */
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    top: 0;
+    position: fixed;
+    /*background-color: #003249;*/
+    overflow: hidden;
+    min-width: 500px;
+}
+
+#navbar h1 {
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 0 0 0 7px;
+}
+
+#navbar ul {
+    flex: 1;
+    text-align: right;
+    padding: 0 30px 0 0;
+}
+
+#navbar ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+}
+
+#navbar ul li a {
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    color: #FEFCFD;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    margin: 0;
+    color: #FAF9F6;
+    /*border-bottom: 4px solid #003249;*/
+}
