@@ -1,0 +1,12 @@
+#prosjektListe {
+    position: relative;
+    margin: 0;
+    padding: 0 10px;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#prosjektListe a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(130,113,83,1);
+}

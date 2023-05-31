@@ -39,10 +39,11 @@ h2, h3, h4 {
 #content {
     margin: 100px 0 0 0;
     background-image: url("https://lh3.googleusercontent.com/JUND03w_ebXclf4kv7rbnbBGmTW5xzVJz33ZLDWkGdgcj97PBDCxncUxdH5P_By05Z30BG4KxhbZ_CL5ZT9dWoBvi2RI8gw7kxOhUDc9LupN5VzaTKEXuWzN9oulD1aapK9llCTWac9FoR9ov2bhyRsKCglVgjyYHduzhqYYsRD3EIxLEjl3yXqOIWX-a-NpaGjDEnfOx2mc1yLniqDhfJTsXbQI17H30VOT3vq8hPTU1CQ0WMAPHxTnFl7DT1JMbsmciPx0NmYcjAsLnycQGImMbH2npJRerPfVGPpRy7QcHxVRac6r2mqbfJ7uOnWEItTH_0QtCDdvLP416hmOlaENfJxxN7QaJfmTzWJFd2MMYAGjuqy320gidinrgUNOn0maGNGXtkjYIIJzYFwnhVYsyUI80bdJRlHC6R4hjwOyc5xnOKJlE7CWaARsELVzv_QKhR6OFeG6mUTdhkGV2PxAgUWy-WX1oP6n0GKaiFPD0fEsmdnRdHlH2Ezz0FDDrb5LjIAzdAlWPxM6zt-yh3eS5njd0zfkSJtkIipvmzQnGZN2WFhp-SZVAn4Z7ej7AD26-22ChiOI_qKzniCnNfX_WMA3dXWQq3grAzreQ_uRGsQ5kG8s2yvy7RQQFgam4qQD4-eZvd-vms-uGlizHQIXqIZfjbg7QZoH9UPNiKN9ipMLG_pi-ITSsyq_UYD7UbnKitoog2ELSvHLvsffhj-AGHlD9JvaT7jg6IXEVH13YdqNw3lITP64Gz9Gc5pKkluArg9fIErDpkcA5xffD9AXsOAJLJugjPI8Mp1TPI63nvj9lDiAbknWfm6KFox7VH39n7eFU_3mRMUVJBAR-OLbb9fAOdAQxziaqWcx4h4BuZoVG3LZAIAb1xYZ4NUU6RPtZSaHH6jPH6POzYw63c-p3tz2kbi2omEky2JWSuQesjLK=w1865-h933-no?authuser=0");
-    height: 350px;
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    /*background-attachment:fixed; */
 }
 
 #divider {
@@ -54,8 +55,10 @@ h2, h3, h4 {
 }
 
 #tesksbox {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flex; /* Add this line */
+    flex-direction: row; /* Add this line */
 }
 
 #footer {
@@ -68,7 +71,11 @@ h2, h3, h4 {
     width: 100%;
 }
 
-
+#prosjektListe a {
+    color: black; /* Set the desired color for the links */
+    text-decoration: none; /* Remove underline and other text decorations */
+  }
+  
 
 /* Navigationbar styles */
 

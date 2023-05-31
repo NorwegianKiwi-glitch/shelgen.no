@@ -1,0 +1,16 @@
+#profilePic {
+    margin: 100px 0 0 0;
+    background-image: url("https://lh3.googleusercontent.com/z0zv9JJXdzSK1-Te5gk8-SDjtZogCV5Esd4uNVJrdCRLPB5hoPDhz_Mz2P6p_vDYp2Ym4cHSEskXZuP-IAyuEcIO1U4h5MQdFtfbV9eTstPlgwK1HKxexZNLuTOrxIDj-g=w1280");
+    background-size: 400px 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+h2 {
+    text-align: left;
+    font-family: Arial;
+    font-size: 1cm;
+    font-size: 20;
+    color: rgb(130,113,83,1);
+}
